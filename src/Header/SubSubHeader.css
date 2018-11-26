@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,600,600i,700,700i,800,800i,900,900i");
+@media (min-width: 640px) {
+  .SubSubHeader__flex-containe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #282e33;
+    min-height: 41px;
+    width: 100%;
+ 
+  }
+
+  .SubSubHeader__flex-text {
+    color: #c0c5ca;
+    min-width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif";
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    line-height: 15px;
+    margin-left: 158px;
+    margin-top: 1px;
+  }
+
+  .SubSubHeader__testbarra {
+    color: #c0c5ca;
+  }
+  .SubSubHeader__textblanc {
+    color: #ffffff;
+  }
+
+  .SubSubHeader__unlimited-n {
+    min-height: 15px;
+    min-width: 33%;
+    color: #c0c5ca;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    line-height: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .SubSubHeader__flex-containe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #282e33;
+    min-height: 41px;
+    width: 100%;
+
+  }
+
+  .SubSubHeader__flex-text {
+    color: #c0c5ca;
+    min-width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif";
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    line-height: 15px;
+       margin-left: 215px;
+    margin-top: 4px;
+  }
+
+  .SubSubHeader__testbarra {
+    color: #c0c5ca;
+  }
+  .SubSubHeader__textblanc {
+    color: #ffffff;
+  }
+
+  .SubSubHeader__unlimited-n {
+    min-height: 15px;
+    min-width: 33%;
+    color: #c0c5ca;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    line-height: 15px;
+  }
+}

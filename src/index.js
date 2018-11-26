@@ -1,12 +1,55 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import MediaQuery from "react-responsive";
+// Menu
+import HeaderP from "./HeaderP";
+import HeaderMobile from "./Header/HeaderMobile";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//Content
+import Content from "./Content";
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+//Footer
+import Footer from "./Footer";
+import SubFooter from "./SubFooter";
+import FooterMobile from './FooterMobile';
+import SubFooterMob from './SubFooterMob';
+import "./index.css";
+
+export default function App() {
+  return (
+    <div className="App">
+      <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet"
+      />
+
+      <MediaQuery query="(min-width: 1201px)">
+        <HeaderP />
+      </MediaQuery>
+      <MediaQuery query="(min-width: 200px) and (max-width: 1200px)">
+        <HeaderMobile />
+      </MediaQuery>
+
+      {/* Menu */}
+      {/* Content */}
+  
+        <Content />
+ 
+
+      {/* Footer */}
+      <MediaQuery query="(min-width: 1201px)">
+      <Footer />
+      <SubFooter />
+      </MediaQuery>
+      <MediaQuery query="(min-width: 200px) and (max-width: 1200px)">
+        <FooterMobile />
+        <SubFooterMob />
+      </MediaQuery>
+   
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);

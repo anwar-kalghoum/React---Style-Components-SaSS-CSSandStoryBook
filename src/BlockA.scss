@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,600,600i,700,700i,800,800i,900,900i");
+.blockA-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  max-height: 646px;
+  min-width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 646px;
+  background-image: url("https://uploads.codesandbox.io/uploads/user/27849c50-097b-4336-bd17-9bdf58adc822/DUL_-Slider%20pic%20(1).png");
+  @media screen and (min-width: 200px) and (max-width: 950px) {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.blockA-img-div {
+  margin-right: 0px;
+  width: 25%;
+  max-height: 646px;
+  margin-left: 0px;
+  padding: 0px;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  @media screen and (min-width: 200px) and (max-width: 950px) {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+}
+.blockA-img-divtwo {
+  margin-right: 0px;
+  width: 25%;
+  max-height: 646px;
+  margin-left: 0px;
+  padding: 0px;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  @media screen and (min-width: 200px) and (max-width: 950px) {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+}
+
+.blockA-imgpop-riot {
+  margin-top: 480px;
+  margin-left: 37px;
+  height: 120px;
+  width: 181px;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  text-align: left;
+  @media screen and (min-width: 200px) and (max-width: 950px) {
+    font-size: 1.97vw;
+  }
+}
+
+.blockA-img-fall {
+  margin-top: 480px;
+  margin-left: 37px;
+  max-height: 120px;
+  max-width: 184px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  text-align: left;
+  @media screen and (min-width: 200px) and (max-width: 950px) {
+    font-size: 1.97vw;
+    font-weight: 1px;
+  }
+}
+.blockA-img-denimeye {
+  margin-top: 480px;
+  margin-left: 37px;
+  height: 90px;
+  width: 188px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  text-align: left;
+  @media screen and (min-width: 200px) and (max-width: 950px) {
+    font-size: 1.97vw;
+  }
+}
+.blockA-img-denimeye-kids-coll {
+  margin-top: 480px;
+  margin-left: 37px;
+  height: 90px;
+  width: 196px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  text-align: left;
+  @media screen and (min-width: 200px) and (max-width: 950px) {
+    font-size: 1.97vw;
+  }
+}
+
+.blockA-img-rectangle-32 {
+  height: 17px;
+  width: 205px;
+  background-color: #ffffff;
+  @media screen and (min-width: 200px) and (max-width: 950px) {
+    height: 0px;
+    width: 0px;
+  }
+}
+
+.blockA-img-divMobile {
+  height: 899px;
+  max-width: 105%;
+  margin-left: -9px;
+  margin-right: -9px;
+  background-repeat: no-repeat;
+  background-size: 100% 889px;
+  background-image: url("https://uploads.codesandbox.io/uploads/user/27849c50-097b-4336-bd17-9bdf58adc822/DUL_-Slider%20pic%20(1).png");
+}
+
+.fall-winter-16e {
+  padding-top: 318px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 88px;
+  width: 330px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.rectangle-43e {
+  margin-top: 57px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 180px;
+  border: 1px solid #ffffff;
+}
+.rectangle-430e {
+  margin-top: 10px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.blockA-cercle {
+  height: 11px;
+  width: 11px;
+  background-color: #737373;
+  border-radius: 10px;
+  margin-left: 18px;
+}
+
+.blockA-cercle2 {
+  height: 11px;
+  width: 11px;
+  background-color: #c6c6c6;
+  border-radius: 10px;
+  margin-left: 18px;
+}
+.blockA-cercle3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 321px;
+}

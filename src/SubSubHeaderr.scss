@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,600,600i,700,700i,800,800i,900,900i");
+.SubSubHeader__flex-containe1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  background-color: #282e33;
+  min-height: 41px;
+  min-width: 100%;
+  margin-top: -2px;
+  @media screen and (min-width: 200px) and (max-width: 950px) {
+    flex-direction: column;
+    font-size: 1.97vw;
+    margin-right: -9px;
+  }
+}
+
+.SubSubHeader__flex-text1 {
+  color: #c0c5ca;
+  min-width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @font-face {
+    font-family: "Lucida Grande";
+    src: url("../font/LucidaGrande.ttf") format("truetype"),
+      url("../font/LucidaGrande.woff2") format("woff2"); /* Super modern browsers */ /* IE6-IE8 */
+  }
+  font-family: "Lucida Grande";
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0.2px;
+  line-height: 15px;
+  @media screen and (min-width: 200px) and (max-width: 950px) {
+    font-size: 1.97vw;
+  }
+}
+
+.SubSubHeader__testbarra1 {
+  color: #c0c5ca;
+  margin-left: 3px;
+}
+.SubSubHeader__textblanc1 {
+  color: #ffffff;
+  margin-left: 1px;
+}
+
+.SubSubHeader__flex-text11 {
+  color: #c0c5ca;
+  min-width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Montserrat,sans-serif";
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  line-height: 15px;
+  @media screen and (min-width: 200px) and (max-width: 950px) {
+    font-size: 1.97vw;
+  }
+}
+
+.SubSubHeader__testbarra11 {
+  color: #c0c5ca;
+  margin-left: 5px;
+  font-family: "Montserrat,sans-serif";
+  font-size: 12px;
+}
+.SubSubHeader__textblanc11 {
+  color: #ffffff;
+  margin-left: -5px;
+  font-family: "Montserrat,sans-serif";
+  font-size: 12px;
+}
+
+.SubSubHeader__unlimited-n1 {
+  min-height: 15px;
+  min-width: 33%;
+  color: #c0c5ca;
+  font-family: Montserrat;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  line-height: 15px;
+}
+
+.SubSubHeader__flex-text21 {
+  color: #c0c5ca;
+  min-width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Montserrat,sans-serif";
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  line-height: 15px;
+
+  @media screen and (min-width: 200px) and (max-width: 950px) {
+    font-size: 1.97vw;
+  }
+}
+
+.SubSubHeader__testbarra21 {
+  color: #c0c5ca;
+  margin-left: 3px;
+}
+.SubSubHeader__textblanc21 {
+  color: #ffffff;
+  margin-left: -15px;
+}

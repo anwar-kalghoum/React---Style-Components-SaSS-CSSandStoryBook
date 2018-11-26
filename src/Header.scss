@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,600,600i,700,700i,800,800i,900,900i");
+.Header__Menu__topnav {
+  min-height: 40px;
+  min-width: 101%;
+  background-color: #f3f3f3;
+  margin-top: -7px;
+  margin-left: -8px;
+  @media screen and (min-width: 200px) and (max-width: 1440px) {
+    min-width: 100%;
+  }
+}
+
+.Header__Menu__topnav a {
+  float: left;
+  color: #b3b3b3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  line-height: 15px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 13px;
+  max-width: 130px;
+  @media screen and (min-width: 200px) and (max-width: 1025px) {
+    min-width: 100%;
+  }
+}
+
+.Header__Menu__topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.Header__Menu__topnav a.active {
+  color: #737373;
+}
+
+.Header__Menu__search-container {
+  float: right;
+  @media screen and (min-width: 200px) and (max-width: 1025px) {
+    float: none;
+  }
+}
+
+.Header__Menu__classButton {
+  background-color: #dedede;
+  color: #b3b3b3;
+  height: 40px;
+  width: 180px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+  line-height: 15px;
+}
+.Header__Menu__textt {
+  height: 15px;
+  width: 49px;
+  color: #b3b3b3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+  line-height: 15px;
+}
+.Header__Menu__imagee {
+  height: 13.42px;
+  width: 13.19px;
+  margin-right: 16px;
+}
+
+.Header__Menu__imagee2 {
+  height: 15px;
+  width: 16.29px;
+  margin-left: 25px;
+  margin-right: 17px;
+}
+.Header__Menu__greenColor {
+  background-color: #f3f3f3;
+  border: 0px;
+  height: 14px;
+  width: 100%;
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 15px;
+}
+Header__Menu__greenColor:hover {
+  background-color: #dddddd;
+}
+
+.Header__Menu__texttt {
+  height: 13px;
+  width: 49px;
+  color: #b3b3b3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  line-height: 15px;
+}
+.Header__Menu__blockimg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+// :defined
